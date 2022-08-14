@@ -113,7 +113,7 @@ resource "aws_lb_listener" "http" {
 
       fixed_response {
         content_type = "text/plain"
-        message_body = "404: page not found"
+        message_body = "404: page not found!"
         status_code = 404
       }
     }
